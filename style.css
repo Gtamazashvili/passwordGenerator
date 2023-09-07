@@ -1,25 +1,28 @@
 body {
   display: flex;
   justify-content: center;
-
+  
   background-color: #040d12;
 }
 .theMainDiv {
   display: flex;
+  
+  
   justify-content: center;
   color: #93b1a6;
-  margin-top: 70px;
-
+  position: relative;
+  top: 80px;
   background: #183d3d;
   text-align: center;
   border-radius: 30px;
-  margin: 40px;
+  margin: 10px;
   padding: 80px;
 }
 * .theMainDiv {
   display: block;
 }
 .slider {
+    
   -webkit-appearance: none;
   width: 80%;
   height: 25px;
@@ -29,6 +32,8 @@ body {
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
   margin-left: 10%;
+  position: relative;
+  bottom: 10px;
 }
 
 .slider:hover {
@@ -60,6 +65,8 @@ body {
   margin-left: 3%;
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 30px;
   height: 70px;
   width: 14-px;
   background: #04aa6d;
@@ -79,8 +86,8 @@ body {
 }
 .copyDiv {
   position: relative;
-  top: 30px;
-  margin-left: 37%;
+  top:60px;
+  margin-left: 36%;
   display: flex;
   justify-content: center;
   height: 50px;
@@ -100,11 +107,18 @@ body {
 h1 {
   position: relative;
   bottom: 40px;
+  font-size: 2.3rem;
 }
 .password {
+  display: relative;
+  top: 10px;
   border-radius: 10px;
   border: 5px solid black;
   position: relative;
   right: 45px;
   text-align: center;
+}.numberOfComponenets{
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 40px;
 }
