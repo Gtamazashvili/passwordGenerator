@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  justify-content: center;
+
+  background-color: #040d12;
+}
+.theMainDiv {
+  display: flex;
+  justify-content: center;
+  color: #93b1a6;
+  margin-top: 70px;
+
+  background: #183d3d;
+  text-align: center;
+  border-radius: 30px;
+  margin: 40px;
+  padding: 80px;
+}
+* .theMainDiv {
+  display: block;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  margin-left: 10%;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+.password {
+  height: 30px;
+  width: 200px;
+
+  margin-left: 100px;
+}
+.generateDiv {
+  margin-left: 3%;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 14-px;
+  background: #04aa6d;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+#generate {
+  background: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+
+  cursor: pointer;
+}
+.generateDiv:hover {
+  background: white;
+}
+.copyDiv {
+  position: relative;
+  top: 30px;
+  margin-left: 37%;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 111px;
+  background: #04aa6d;
+  border-radius: 10px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+#copy {
+  border: none;
+  background: none;
+}
+.copyDiv:hover {
+  background: white;
+}
+h1 {
+  position: relative;
+  bottom: 40px;
+}
+.password {
+  border-radius: 10px;
+  border: 5px solid black;
+  position: relative;
+  right: 45px;
+  text-align: center;
+}
